@@ -58,18 +58,21 @@ ul, ol {
     color: #404BBF;
 }
 
-.page-title {
+.title-section {
+    background-color: #2e2f42;
+}
+
+.title-section .page-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07143;
     color: #ffffff;
-    background-color: #2e2f42;
     width: 1440px;
     height: 600px;
     text-align: center;
 }
 
-.button {
+.title-section .button {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -85,8 +88,8 @@ ul, ol {
     text-align: center;
 }
 
-.button:hover,
-.button:focus {
+.title-section .button:hover,
+.title-section .button:focus {
     background: #404bbf;
 }
 
